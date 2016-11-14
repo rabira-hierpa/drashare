@@ -1,0 +1,284 @@
+/**************COLOR MENU*************
+  #00FFFF -- WATER
+  #000000 -- BLACK
+  #OOOOFF -- BLUE
+  #FF00FF -- FUCHSIA
+  #008000 -- GREEN
+  #808080 -- GRAY
+  #00FF00 -- LIME
+  #800000 -- BROWN-RED
+  #000080 -- NAVY
+  #808000 -- OLIVE
+  #800080 -- PURPLE
+  #FF0000 -- RED
+  #C0C0C0 -- SILVER
+  #008080 -- DARK TEAL
+  #FFFFFF -- WHITE
+  #FFFF00 -- YELLOW
+  #F0F8FF -- LIGHT BLUE
+  #FAEBD7 -- LIGHT BROWN
+  #7FFFD4 -- AQUAMARINE
+  #F0FFFF -- CERULEAN
+  #F5F5DC -- BEIG
+  #FFE4C4 -- CREAM
+  #FFEBCD -- WEAKER CREAM
+  #8A2BE2 -- BLUE AND PURPLE
+  #A52A2A -- BRWON
+  #D3B887 -- BROWN-CREAM
+  #5F9EA0 -- VIOLET
+  #7FFF00 -- GREEN
+  #D2691E -- CHOCOLATE
+  #FF7F50 -- CORAL
+  #6495ED -- BLUE
+  #FFF8DC -- YELLOW
+  #DC143C -- PURPLE
+  #00FFFF -- CYAN
+  #00008B -- DARK BLUE
+  #008B8B -- DARK RED
+  #B8860B -- DARKER GOLD
+  #A9A9A9 -- DARKER GRAY
+  #006400 -- DARKER GREEN
+  #BDB76B -- DARKER KAKI
+  #8B998B -- DARKER MAGNETA
+  #556B2F -- DARKER OLIVE -GREEN
+  #FF8C00 -- DARKER ORANGE
+  #9932CC -- DARKER PURPLE
+  #8B0000 -- DARKER RED
+  #E9967A -- DARKER SALMON
+  #8FBC8F -- DARKER SEA
+  #483D8B -- DARKER BLUE
+  #2F2F2F -- DARK GRAY
+  #00CED1 -- DARKER TURQUOISE
+  #9400D3 -- DARKER PINK
+  #FF1493 -- DEEP PINK
+  #00BFFF -- DEEP BLUE
+  #696969 -- DEEP GRAY
+  #1E90FF -- DEEP BLUE
+  #B22222 -- BRICK
+  #FFFAF0 -- FLORAL WHITE
+  #228B22 -- GREEN
+  #DCDCDC -- BLACK -CREAM
+  #F8F8FF -- CREAMY
+  #FFD700 -- GOLD
+  #DAA520 -- GOLD
+  #808080 -- GRAY
+  #ADFF2F -- GREEN-YELLOW
+  #F0FFF0 -- HONEY
+  #FF69B4 -- PINK-RED
+  #CD5C5C -- DARKER RED
+  #4B0082 -- INDIGO
+  #FFFFF0 -- IVORY
+  #F0E68C -- BROWN-YELLOW
+  #E6E6FA -- LAVENDER
+  #FFF0F5 -- POWDER PINK
+  #7CFC00 -- SOLID GREEN
+  #FFFACD -- YELLOW CREAM
+  #ADD8E6 -- LIGHT
+  #F08080 -- LIGHT CORAL
+  #E0FFFF -- LIGHT CYAN
+  #FAFAD2 -- YELLOW BLUE
+  #90EE90 -- LIGHT GREEN
+  #D3D3D3 -- LIGHT GRAY
+  #FFB6C1 -- PALE
+  #FFA07A -- LIGHT SALMON
+  #20B2AA -- LIGHT SEA
+  #87CEFA -- LIGHT
+  #778899 -- LIGHT SATE GRAY
+  #B0C4D3 -- LIGHT STEEL BLUE
+  #FFFFE0 -- PALE
+  #32CD32 -- LIME GREEN
+  #FAF0E6 -- FLAX
+  #FF00FF -- MAGNETA
+  #0000CD -- STRONGER SHADE OF BLUE
+  #BA55D3 -- STRONGER SHADE OF PINK
+  #9370DB -- MEDIUM SHAD OF PINK
+  #191970 -- MIDNIGHT BLUE
+  #FFE4E1 -- CRAMY PINK
+  #FFE4B5 -- MOCCASIN
+  #FDF536 -- WHITE AND CREAM
+  #FFA500 -- ORANGE
+  #DA70D6 -- SLIGHTLY PURPLE
+  #FFDAB9 -- SLIGHTLY ORANGE
+  #CD853F -- PERU
+  #FFC0CB -- PINK
+  #DDA0DD -- PLUM
+  #800080 -- PURPLES
+  #BC8F8F -- PINK AND BROWN
+  #4169E1 -- ROYAL BLUE
+  #FA8072 -- SALMON
+  #F4A460 -- SANDY BROWN
+  #2E8B57 -- TEAL
+  #A0522D -- ORANGE - YELLOW
+  #87CEEB -- BLUE
+  #6A5ACD -- NAVY
+  #4682B4 -- STEEL BLUE
+  #DCB48C -- WHITE AND CREAM
+  #D8BFD3 -- FAINT PINK
+  #FF6347 -- TOMATO
+  #EE82EE -- PURPLE
+  #F5DEB3 -- WHEAT
+  #F5F5F5 -- MILKY WHITE
+  #FFFF00 -- YELLOW
+  #9ACD32 -- YELLOW-GREEN
+***************************************/
+
+/*+++++++++++++++ LAYOUT SECTION +++++++++++++++++++++++++*/
+
+body{
+  background-color: #696969;
+  margin: 0px;
+  font-family: "Ubuntu Light","Indie Flower", Georgia, serif;
+  font-size: 14px;
+}
+/*+++++++++++ NAVIGATION BAR SECTION +++++++++++++++++*/
+#navbar ul {
+  background-color: #ffd700;
+  list-style-type: none;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+#navbar ul li {
+  display: inline;
+  font-family: "Ubuntu Light",Purisa;
+  font-size: 130%;
+  padding: inherit;
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  padding .2em 1em;
+  color: black;
+  /*background-color: #000;*/
+}
+
+#navbar ul li a:hover{
+  text-decoration: none;
+  padding .2em 1em;
+  color: #ce282e;
+  background-color: #ffd700;
+}
+#navbar ul li a img{
+  width: 20px;
+  height: 20px;
+  margin: inherit;
+  padding: inherit;
+}
+/*++++++++++++++++++++++++ HEADING SECTION ++++++++++++++++++++++*/
+#header{
+  background-color: #ce282e;
+  margin: 10px;
+  height: 90px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+/*++++++++++++++++++++++ MAIN SECTION ++++++++++++++++++++++++++*/
+.main{
+  background-color: #e5e4d7;
+  margin-left: 10px;
+  margin-right: 220px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
+}
+/*++++++++++++++++++ SIDE BAR SECTION +++++++++++++++++++++++++++*/
+.sideright{
+  background-color: #e5e4d7;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 105%;
+  float: right;
+  width:160px;
+  clear: right;
+}
+.imagesidebar{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 105%;
+  float: right;
+  width:200px;
+  clear: right;
+  opacity: 1.0;
+  transition: opacity 0.5s ease-in-out;
+}
+.imagesidebar:hover{
+  opacity: 0.5;
+}
+/*+++++++++++++++++ FOOTER SECTION +++++++++++++++++++++++++++*/
+#footer {
+  background-color:  #ffd700;
+  margin: 10px;
+  clear: both;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 90%;
+  height: auto;
+  text-align: center;
+  color: black;
+  padding: 15px;
+}
+
+#footer ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+#footer ul li {
+  display: inline;
+  font-family: "Ubuntu Light",Purisa;
+  font-size: 105%;
+  padding: inherit;
+}
+
+#footer ul li a{
+  text-decoration: none;;
+  padding .2em 1em;
+  color: black;
+}
+
+#footer ul li a:hover{
+  text-decoration: none;
+  padding: 3px;
+  color: #cc0033;
+  /*background-color: #ffd700;*/
+}
+/*++++++++++++++++++++ HEADING SECTION +++++++++++++++++++*/
+h1{
+  font-size: 120%;
+  color: #ce282e;
+}
+
+h2{
+  font-size: 120%;
+  /*color: #20b2aa;*/
+  color: #ce282e;
+}
+h3{
+  font-weight: 900;
+  font-size: 300%;
+  font-family: "Ubuntu Light",Purisa;
+  color: #ffd700;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  -webkit-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform: translateY(-50%);
+}

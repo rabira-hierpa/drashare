@@ -1,0 +1,9 @@
+div#listclips ul{
+  list-style-type: none;
+}
+div#listclips ul li a{
+  text-decoration: none;
+}
+div#listclips ul li a:hover{
+  text-decoration: underline;
+}
